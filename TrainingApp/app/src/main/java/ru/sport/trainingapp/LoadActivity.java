@@ -19,7 +19,7 @@ public class LoadActivity extends AppCompatActivity {
     public static final String APP_PREFERENCES_WEIGHT = "myweight";
     public static final String APP_PREFERENCES_SCORE = "myscore";
     public static final String APP_PREFERENCES_DAYOFWEEK = "myday";
-    private static final String ONESIGNAL_APP_ID = "81169dca-6040-4418-88af-493d10a84f6c";
+    private static final String ONESIGNAL_APP_ID = "replace this";
     Intent intent;
     String dayOfWeek;
     Calendar calendar;
