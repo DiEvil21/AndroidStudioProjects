@@ -90,9 +90,7 @@ public class LoadActivity extends AppCompatActivity {
             System.out.println("------" +mSettings.getString(APP_PREFERENCES_DAYOFWEEK,""));
             System.out.println(dayOfWeek);
         }
-        // Навязчивые мысли мешают
-        // Что там на счет встречи?
-        // Договор какой-нибудь? Какие-нибудь гарантии
+        
 
 
 
