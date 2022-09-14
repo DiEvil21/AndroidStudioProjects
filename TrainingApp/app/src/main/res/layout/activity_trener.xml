@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background_1"
+    tools:context=".TrenerActivity">
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:textStyle="bold|italic"
+        android:textSize="30sp"
+        android:layout_weight="1"
+        android:text="@string/header_winsport" />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="ВОПРОС\nТРЕНЕРУ"
+        android:textColor="@color/white"
+        android:textSize="45sp"
+        android:textStyle="italic|bold" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/mytrenerinput"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/editTextQuestion"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_weight="4"
+            android:background="@android:color/transparent"
+            android:ems="10"
+            android:gravity="start|center"
+            android:hint="Какой должен быть пульс\nпри ускорениях?"
+            android:inputType="textMultiLine"
+            android:textColor="#ff6910"
+            android:textStyle="italic|bold"
+            android:textColorHint="#ff6910"
+            android:textSize="20sp" />
+
+        <ImageButton
+            android:id="@+id/butSend"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginBottom="5dp"
+            android:layout_weight="1"
+            android:background="@drawable/mycirclebutton"
+            android:onClick="onClick"
+            android:paddingTop="5dp"
+            android:rotation="270"
+            android:src="@drawable/arrow"
+            android:text=""
+            android:textColor="@color/white" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="5"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="italic|bold"
+            android:textSize="25dp"
+            android:layout_marginTop="20dp"
+            android:textColor="@color/white"
+            android:gravity="center"
+            android:text="ИСТОРИЯ ОТВЕТОВ" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/myanswerbackgound"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textViewQuestion"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="start"
+                android:paddingLeft="20dp"
+                android:textStyle="italic|bold"
+                android:paddingTop="20dp"
+                android:paddingRight="20dp"
+                android:text="Какой должен быть пульс\nпри ускорениях?"
+                android:textColor="#ff6910"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="italic|bold"
+                android:textSize="25sp"
+                android:paddingLeft="20dp"
+                android:layout_marginTop="20dp"
+                android:textColor="@color/white"
+                android:text="ОТВЕТ:" />
+
+            <TextView
+                android:id="@+id/textViewAnswer"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textSize="18sp"
+                android:paddingLeft="20dp"
+                android:paddingTop="10dp"
+                android:paddingRight="20dp"
+                android:text=""
+                android:textColor="@color/white" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

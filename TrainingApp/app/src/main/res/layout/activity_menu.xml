@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_3"
+    android:orientation="vertical"
+    tools:context=".MenuActivity">
+
+    <TextView
+        android:id="@+id/menuHeader"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:gravity="center|top"
+        android:textColor="@color/white"
+        android:textSize="30sp"
+        android:textStyle="italic|bold"
+        android:paddingTop="10dp"
+        android:layout_weight="1.5"
+        android:text="@string/header_winsport" />
+
+    <Button
+        android:id="@+id/butTrain"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:layout_weight="0.7"
+        android:background="@drawable/mymenubuttonbackground"
+        android:onClick="onClick"
+        android:text="ТРЕНИРОВКА"
+        android:textColor="@color/white"
+        android:textSize="30sp"
+        android:textStyle="italic|bold" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/butAnc"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:layout_weight="0.7"
+        android:background="@drawable/mymenubuttonbackground"
+        android:onClick="onClick"
+        android:text="АНАЛИТИКА"
+        android:textColor="@color/white"
+        android:textSize="30sp"
+        android:textStyle="italic|bold" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/butSettings"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:layout_weight="0.7"
+        android:background="@drawable/mymenubuttonbackground"
+        android:onClick="onClick"
+        android:text="НАСТРОЙКИ"
+        android:textColor="@color/white"
+        android:textSize="30sp"
+        android:textStyle="italic|bold" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+
+    <Button
+        android:id="@+id/butTrener"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:layout_weight="0.7"
+        android:background="@drawable/mymenubuttonbackground"
+        android:onClick="onClick"
+        android:text="Вопрос тренеру"
+        android:textColor="@color/white"
+        android:textSize="30sp"
+        android:textStyle="italic|bold" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.5"/>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:textSize="30sp"
+        android:textStyle="italic|bold"
+        android:textColor="@color/white"
+        android:gravity="center"
+        android:layout_weight="1"
+        android:text="@string/wayforday" />
+
+    <TextView
+        android:id="@+id/progressText"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.8"
+        android:gravity="center|bottom"
+        android:text="ПРОГРЕСС: 15000P"
+        android:textColor="@color/white"
+        android:textSize="30sp"
+        android:textStyle="italic|bold" />
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:progressDrawable="@drawable/myprogresbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:max="25000"
+        android:progress="15000" />
+</LinearLayout>

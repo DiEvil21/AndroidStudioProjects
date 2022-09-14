@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/swithNotification"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_2"
+    android:orientation="vertical"
+    tools:ignore="UseSwitchCompatOrMaterialXml">
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.9"
+        android:gravity="center|top"
+        android:paddingTop="10dp"
+        android:text="@string/header_winsport"
+        android:textColor="@color/white"
+        android:textSize="35sp"
+        android:textStyle="italic|bold" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="НАСТРОЙКИ"
+        android:textColor="@color/white"
+        android:textSize="40sp"
+        android:textStyle="italic|bold" />
+
+    <Switch
+        android:id="@+id/switch1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginStart="10dp"
+        android:paddingRight="10dp"
+        android:thumb="@drawable/myswitch"
+        android:track="@drawable/myswitchback"
+        android:layout_weight="1"
+        android:letterSpacing="0.009"
+        android:text="Уведомления"
+        android:textColor="#ff690f"
+        android:textSize="35sp"
+        android:textStyle="italic|bold" />
+
+    <Button
+        android:id="@+id/butDelete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:background="@drawable/mybuttonnocolor"
+        android:letterSpacing="0.009"
+        android:lineSpacingMultiplier="0.7"
+        android:onClick="onClick"
+        android:text="Очистить\nданные"
+        android:textColor="#ff690f"
+        android:textSize="35sp"
+        android:textStyle="italic|bold" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="5" />
+</LinearLayout>
