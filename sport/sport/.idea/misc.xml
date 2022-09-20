@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Di/AndroidStudioProjects/sport/app/src/main/res/drawable/border.xml" value="0.3575" />
+        <entry key="..\:/Users/Di/AndroidStudioProjects/sport/app/src/main/res/drawable/borderheader.xml" value="0.196" />
+        <entry key="..\:/Users/Di/AndroidStudioProjects/sport/app/src/main/res/drawable/buttonstyle.xml" value="0.3485" />
+        <entry key="..\:/Users/Di/AndroidStudioProjects/sport/app/src/main/res/drawable/mybutton.xml" value="0.266" />
+        <entry key="..\:/Users/Di/AndroidStudioProjects/sport/app/src/main/res/drawable/myswitch.xml" value="0.3225" />
+        <entry key="..\:/Users/Di/AndroidStudioProjects/sport/app/src/main/res/drawable/myswitchtrack.xml" value="0.3225" />
+        <entry key="..\:/Users/Di/AndroidStudioProjects/sport/app/src/main/res/drawable/non_active_button.xml" value="0.1555" />
+        <entry key="..\:/Users/Di/AndroidStudioProjects/sport/app/src/main/res/drawable/styles.xml" value="0.1935" />
+        <entry key="..\:/Users/Di/AndroidStudioProjects/sport/app/src/main/res/layout/activity_country.xml" value="0.25" />
+        <entry key="..\:/Users/Di/AndroidStudioProjects/sport/app/src/main/res/layout/activity_country_table.xml" value="0.32083333333333336" />
+        <entry key="..\:/Users/Di/AndroidStudioProjects/sport/app/src/main/res/layout/activity_main.xml" value="0.3484375" />
+        <entry key="..\:/Users/Di/AndroidStudioProjects/sport/app/src/main/res/layout/activity_menu.xml" value="0.358695652173913" />
+        <entry key="..\:/Users/Di/AndroidStudioProjects/sport/app/src/main/res/layout/activity_news.xml" value="0.1762917933130699" />
+        <entry key="..\:/Users/Di/AndroidStudioProjects/sport/app/src/main/res/layout/activity_settings.xml" value="0.246875" />
+        <entry key="..\:/Users/Di/AndroidStudioProjects/sport/app/src/main/res/layout/activity_stats.xml" value="0.33" />
+        <entry key="..\:/Users/Di/AndroidStudioProjects/sport/app/src/main/res/layout/activity_table.xml" value="0.2155688622754491" />
+        <entry key="..\:/Users/Di/AndroidStudioProjects/sport/app/src/main/res/layout/list_item.xml" value="0.25" />
+        <entry key="..\:/Users/Di/AndroidStudioProjects/sport/app/src/main/res/layout/news_item.xml" value="0.3614583333333333" />
+        <entry key="..\:/Users/Di/AndroidStudioProjects/sport/app/src/main/res/layout/stats_item.xml" value="0.3614583333333333" />
+        <entry key="..\:/Users/Di/AndroidStudioProjects/sport/app/src/main/res/xml/network_security_config.xml" value="0.1" />
+        <entry key="..\:/Users/Di/Documents/GitHub/AndroidStudioProjects/sport/sport/app/src/main/res/drawable/border.xml" value="0.1945" />
+        <entry key="..\:/Users/Di/Documents/GitHub/AndroidStudioProjects/sport/sport/app/src/main/res/layout/activity_country.xml" value="0.17074275362318841" />
+        <entry key="..\:/Users/Di/Documents/GitHub/AndroidStudioProjects/sport/sport/app/src/main/res/layout/activity_country_table.xml" value="0.17074275362318841" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
